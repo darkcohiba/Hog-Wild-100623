@@ -1,10 +1,11 @@
 import React from "react";
 import Nav from "./Nav";
-import HogList from "./HogList";
 
 import hogs from "../porkers_data";
+import HogList from "./HogList";
 
 function App() {
+	// console.log(hogs);
 	return (
 		<div className="App">
 			<Nav />
